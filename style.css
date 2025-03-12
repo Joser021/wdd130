@@ -1,5 +1,5 @@
 main {
-    width: 840px;
+    width-max: 840px;
 }
 
 nav {
@@ -49,9 +49,3 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
-
-/*
-1️⃣add a top margin to separate it from the main element content, 
-2️⃣add a top border to design additional distinction from the main content, and 
-3️⃣align any text in the footer to the center of its content box.
-*/

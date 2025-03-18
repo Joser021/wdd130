@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 main {
     max-width: 840px;
 }
@@ -15,28 +21,35 @@ nav a {
 
 h1 {
     color: darkblue;
+    padding: .5rem;
 }
 
 main img {
-    width: 150px;
+    float: right;
+    width: 180px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    margin: 0 0 1rem 1rem;
 }
 
 p {
     padding: 0;
+    margin: 1rem;
 }
 
 aside {
     width: 20em;
-    margin: 1em;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1em;
-    background-color: #eee;
-    color: #333;
     text-align: center;
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    top: 20px;
+    left: 65px;
+    color: black;
 }
 
 aside img {
@@ -50,3 +63,15 @@ footer {
     text-align: center;
 }
 
+/* Class Selectors */
+.box {
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    background-color: #eee;
+    color: #333;
+}
+
+.indent {
+    padding-left: 2rem;
+}

@@ -1,23 +1,22 @@
 :root {
-    --primary-color: #ba0000
-    --secondary-color: #00345e
-    --accent1-color: #fad3d3
-    --accent2-color: #e7e3fc
-    --headind-font: "Roboto Slab", serif;
-    --text-font: "Manrope", sans-serif;
+    --primary-color: #ba0000;
+    --secondary-color: #00345e;
+    --accent1-color: #fad3d3;
+    --accent2-color: #e7e3fc;
 }
 
 * {
     margin: 0px;
 }
 
+
 h2 {
-    font-family: var(--heading-font);
+    font-family: "Roboto Slab", serif;
     font-weight: 500;
 }
 
 p, a {
-    font-family: var(--text-font);
+    font-family: "Manrope", sans-serif;
     font-weight: 400;
 }
 
@@ -33,25 +32,37 @@ p, a {
 }
 
 .hero h1 {
-    font-family: var(--heading-font);
+    font-family: "Roboto Slab", serif;
     font-weight: 500;
     position: absolute;
-    top: 7rem;
-    left: 25rem;
-    font-size: 5rem;
-    background-color: blue;
+    top: 50px;
+    left: 250px;
+    font-size: 50px;
+    color: white;
 }
 
+section img {
+    width: 250px;
+    height: auto;
+}
 
+footer img{
+    width: 35px;
+}
 
 .container {
-    width: 250px;
-	background: radial-gradient(#eee, #11aa11);
-	padding: 0.65rem;
-	/* position: absolute; */
-    /* float: right; */
+    width: 800px;
+    height: 130px;
+    padding: 15px;
+	background: var(--secondary-color);
+	position: absolute;
+    top: 200px;
+    left: 200px;
+    color: white;
 }
 
 .container img {
+    width: 200px;
     float: right;
+    padding-left: 15px;
 }

@@ -4,13 +4,20 @@
     box-sizing: border-box;
 }
 
-/* header, footer {
-    max-width: 840px;
+header, .grid, footer {
+    /* max-width: 840px; */
     margin: 0 auto;
-} */
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+    width: 840px;
+}
 
 main {
-    max-width: 840px;
+    grid-column: 2/3;
+    align-items: 1rem;
 }
 
 nav {
@@ -58,6 +65,8 @@ aside {
     width: 20em;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside h2 {

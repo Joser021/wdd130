@@ -9,6 +9,41 @@
     margin: 0px;
 }
 
+body {
+    background-color: var(--accent2-color);
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    background-color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+header img {
+    margin: 10px;
+    width: 150px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    padding: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar a:hover {
+    background-color: #c95858;
+    border-radius: 15px;
+}
 
 h2 {
     font-family: "Roboto Slab", serif;
@@ -30,6 +65,7 @@ p, a {
     height: auto;
     object-fit: cover;
 }
+
 
 .hero h1 {
     font-family: "Roboto Slab", serif;

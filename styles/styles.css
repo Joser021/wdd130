@@ -16,7 +16,6 @@ header, .grid, footer {
 
 main {
     grid-column: 2/3;
-    align-items: 1rem;
 }
 
 nav {

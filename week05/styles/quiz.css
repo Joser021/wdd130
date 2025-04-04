@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 1.2rem;
+    color: #333;
+    background-color: #fff;
+}
+
+header {
+    margin: 0;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.6em;
+    text-align: center;
+    color: navy;
+}
+
+ol li::marker {
+    color: navy;
+    
+}
+
+form {
+    display: grid;
+    width: 650px;
+    margin: auto;
+    padding: 3rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: .5rem;
+    background-color: #eee;
+}
+
+label, input, textarea, select, button{
+    font-family: "Manrope", sans-serif;
+}
+
+input, select, textarea {
+    padding: .5rem;
+    font-size: 1.1rem;
+}

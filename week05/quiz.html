@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Quiz</title>
+    <meta name="description" content="html and css quiz">
+    <meta name="author" content="José Oliveira">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>Basic HTML and CSS Quiz</h1>
+    </header>
+    <main>
+        <form>
+            <ol>
+                <div>
+                    <li><label for="q1">What is the acronym CSS stand for?</label></li>
+                    <input type="text" id="q1" name="q1">
+                </div>
+                <div>
+                    <li><label for="q2">How are id and class attributes selected in CSS?</label></li>
+                    <textarea name="q2" id="q2" rows="4"></textarea>
+                </div>
+                <div>
+                    <li><label for="q3">Which fo the following is a valid CSS comment?</label></li>
+                    <select name="q3" id="q3">
+                        <option value="" selected disabled>Choose One...</option>
+                        <option value="html-comments">&lt;!--  --&gt;</option>
+                        <option value="css-comments">/*  */</option>
+                        <option value="hash">#</option>
+                    </select>
+                </div>
+                <div>
+                    <li><label for="q4">What is the bottom margin this declaration?</label></li>
+                    <!-- <img src="" alt=""> -->
+                    <input type="number" id="q4" name="q4">
+                </div>
+            </ol>
+                <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,27 +1,27 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
-body {
+/* body {
     font-family: "Roboto Slab", sans-serif;
     font-size: 1.2em;
     color: #333;
     background-color: #fff;
-}
+} */
 
-header {
+/* header {
     margin: 0 auto;
     width: 650px;
-}
+} */
 
-h1 {
+/* h1 {
     margin: 1rem;
     font-size: 1.4em;
     color: navy;
     text-align: center;
-}
+} */
 
 form {
     display: grid;

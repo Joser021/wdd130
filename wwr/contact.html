@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WWR - Contact</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+
+    <meta name="description" content="contact information and a contact form">
+    <meta name="author" content="José Oliveira">
+    
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+<header>
+    <img src="images/logo.jpeg" alt="logo">
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+<main>
+    <div class="main-container">
+        <div class="contact-information">
+            <h3>Address: </h3>
+            <p>Street Address, City and State, ZIP Code, Country</p><br>
+            <h3>Phone number:</h3>
+            <p>(XXX) XXX-XXXX</p><br>
+            <h3>Email:</h3>
+            <p>companyname@example.com</p><br>
+            <h3>small embedded google maps</h3>
+        </div>
+        <form>
+            <fieldset>
+                <div class="form-item column1">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item column2">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+                </div>
+                <br>
+                <div class="form-item column3">
+                    <label for="message-purpose">What is the message's purpose?</label>
+                    <label>
+                        <input type="radio" name="message-purpose">
+                        General Inquiry
+                    </label>
+                    <label>
+                        <input type="radio" name="message-purpose">
+                        Reseration Question
+                    </label>
+                    <label>
+                        <input type="radio" name="message-purpose">
+                        Website Suggestion
+                    </label>
+                </div>
+                <br>
+                <textarea name="message" id="message" placeholder="Write Your message here..."></textarea>
+                <div class="checkbox">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div>
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </div>
+</main>
+<footer class="navfooter">
+    <p>© 2025 🛶 WRR 🛶 José Oliveira</p>
+    <nav class="socialmidias">
+        <a href="https://facebook.com"><img src="images/facebook-logo.jpg" alt="facebook logo"></a>
+        <a href="https://x.com"><img src="images/x-logo.jpg" alt="x logo"></a>
+        <a href="https://instagram.com"><img src="images/instagram-logo.jpg" alt="instagram logo"></a>
+    </nav>
+</footer>
+</body>
+</html>

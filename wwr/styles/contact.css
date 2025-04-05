@@ -56,7 +56,7 @@ h2, h3 {
 .contact-information {
     width: 650px;
     margin: auto auto 15px auto;
-    padding: 1rem;
+    padding: 2.3rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
     background-color: var(--accent2-color);
@@ -82,8 +82,8 @@ fieldset {
     padding: 1rem;
 }
 
-label, input, textarea, button {
-    font-family: "Manrope";
+label, input, textarea, button, h1 {
+    font-family: "Roboto Slab";
 }
 
 label {
@@ -115,108 +115,31 @@ button:hover {
     background-color: rgb(3, 73, 3);
 }
 
-p, a, figcaption {
+p {
     font-family: "Manrope", sans-serif;
     font-weight: 400;
 }
 
-.hero {
-    position: relative;
+
+h1 {
+    text-align: center;
+    padding: 15px;
 }
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-.hero h1 {
-    font-family: "Roboto Slab", serif;
-    font-weight: 500;
-    position: absolute;
-    top: 50px;
-    left: 250px;
-    font-size: 50px;
-    color: white;
+iframe {
+    display: grid;
+    width: 500px;
+    margin: auto;
+    height: 350px;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    border-radius: .5rem;
+    padding: 15px;
+    background-color: #dddaee;
 }
 
 .main-container {
-    /* display: flex; */
-    margin: 5rem;
+    margin: 2rem;
 }
-
-.container {
-    width: 800px;
-    height: 130px;
-    padding: 15px;
-	background: var(--secondary-color);
-	position: absolute;
-    top: 200px;
-    left: 200px;
-    color: white;
-}
-
-.container img {
-    width: 200px;
-    float: right;
-    padding-left: 15px;
-}
-
-.history {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    place-items: center;
-    padding: 20px;
-    border: 1px solid;
-    margin: 15px;
-    background-color: var(--accent2-color);
-}
-
-.history h2 {
-    display: grid;
-    grid-column: 1/4;
-    place-items: center;
-    padding-bottom: 15px;
-    font-size: 30px;
-}
-
-.history img {
-    padding: 0px 15px;
-}
-
-.adventure{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    border: 1px solid;
-    margin: 15px;
-    background-color: var(--accent2-color);
-}
-
-.adventure h2{
-    display: grid;
-    grid-column: 1/6;
-    place-items: center;
-    font-size: 30px;
-    padding: 15px;
-}
-
-section img {
-    width: 250px;
-    height: auto;
-}
-
-.adventure figure{
-    width: 250px;
-    height: auto;
-    padding: 1em;
-}
-
-figcaption {
-    display: flex;
-    justify-content: center;
-}
-
 
 .navfooter {
     display: grid;

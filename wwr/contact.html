@@ -7,7 +7,7 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
 
     <meta name="description" content="contact information and a contact form">
     <meta name="author" content="José Oliveira">
@@ -25,6 +25,7 @@
     </nav>
 </header>
 <main>
+    <h1>Contact page</h1>
     <div class="main-container">
         <div class="contact-information">
             <h3>Address: </h3>
@@ -33,8 +34,11 @@
             <p>(XXX) XXX-XXXX</p><br>
             <h3>Email:</h3>
             <p>companyname@example.com</p><br>
-            <h3>small embedded google maps</h3>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d244.69975601479373!2d-45.89567993839838!3d-11.09875814571632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1743855868154!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+    </div>
+    <div>
         <form>
             <fieldset>
                 <div class="form-item column1">
@@ -49,15 +53,15 @@
                 <div class="form-item column3">
                     <label for="message-purpose">What is the message's purpose?</label>
                     <label>
-                        <input type="radio" name="message-purpose">
+                        <input type="radio" name="message-purpose" id="message-purpose">
                         General Inquiry
                     </label>
                     <label>
-                        <input type="radio" name="message-purpose">
+                        <input type="radio" name="message-purpose" id="message-purpose">
                         Reseration Question
                     </label>
                     <label>
-                        <input type="radio" name="message-purpose">
+                        <input type="radio" name="message-purpose" id="message-purpose">
                         Website Suggestion
                     </label>
                 </div>

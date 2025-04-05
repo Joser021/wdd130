@@ -7,7 +7,7 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
 
     <meta name="description" content="contact information and a contact form">
     <meta name="author" content="José Oliveira">
@@ -39,42 +39,57 @@
             </div>
         </div>
     </div>
-    <div>
-        <form>
-            <fieldset>
-                <div class="form-item column1">
-                    <label for="fullname">Full Name:</label>
-                    <input type="text" id="fullname" name="fullname">
-                </div>
-                <div class="form-item column2">
-                    <label for="useremail">Email:</label>
-                    <input type="email" id="useremail" name="useremail">
-                </div>
-                <br>
-                <div class="form-item column3">
-                    <label>What is the message's purpose?</label>
-                    <label for="general-inquiry">
-                        <input type="radio" name="message-purpose" id="general-inquiry">
-                        General Inquiry
-                    </label>
-                    <label for="reservation-question">
-                        <input type="radio" name="message-purpose" id="reservation-question">
-                        Reservation Question
-                    </label>
-                    <label for="website-suggestion">
-                        <input type="radio" name="message-purpose" id="website-suggestion">
-                        Website Suggestion
-                    </label>
-                </div>
-                <br>
-                <textarea name="message" id="message" placeholder="Write Your message here..."></textarea>
-                <div class="checkbox">
-                    <input type="checkbox" id="subscribe" name="subscribe">
-                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-                </div>
-                <button type="submit">Submit</button>
-            </fieldset>
-        </form>
+    <form>
+        <fieldset>
+            <div class="form-item column1">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname">
+            </div>
+            <div class="form-item column2">
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail">
+            </div>
+            <br>
+            <div class="form-item column3">
+                <label>What is the message's purpose?</label>
+                <label for="general-inquiry">
+                    <input type="radio" name="message-purpose" id="general-inquiry">
+                    General Inquiry
+                </label>
+                <label for="reservation-question">
+                    <input type="radio" name="message-purpose" id="reservation-question">
+                    Reservation Question
+                </label>
+                <label for="website-suggestion">
+                    <input type="radio" name="message-purpose" id="website-suggestion">
+                    Website Suggestion
+                </label>
+            </div>
+            <br>
+            <textarea name="message" id="message" placeholder="Write Your message here..."></textarea>
+            <div class="checkbox">
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+            </div>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+    <div class="employees">
+        <section class="happy-employees">
+            <h2>Happy Employees</h2>
+            <figure>
+                <img src="images/happy-employees1.jpg" alt="happy-employees1">
+                <figcaption>Happy Employees 1</figcaption>
+            </figure>
+            <figure>
+                <img src="images/happy-employees2.jpg" alt="happy-employees2">
+                <figcaption>Happy Employees 2</figcaption>
+            </figure>
+            <figure>
+                <img src="images/happy-employees3.jpg" alt="happy-employees3">
+                <figcaption>Happy employees 3</figcaption>
+            </figure>
+        </section>
     </div>
 </main>
 <footer class="navfooter">

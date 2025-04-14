@@ -181,7 +181,6 @@ p, a, figcaption {
 .hero h1 {
     font-family: "Roboto Slab", serif;
     font-weight: 500;
-    /* position: absolute; */
     top: 80px;
     left: 350px;
     font-size: 50px;
@@ -317,7 +316,6 @@ p, a, figcaption {
 
 .offer-trip-container {
     padding: 25px;
-    /* background-color: blue;; */
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: .5rem;
     margin: 10px;
